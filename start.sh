@@ -4,9 +4,9 @@ then
   git clone https://github.com/Localusersbot/DQ-the-file-donor.git /DQ-The-File-Donor
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /DQ-The-File-Donor
+  git clone $UPSTREAM_REPO /koyeb
 fi
-cd /DQ-The-File-Donor
+cd /koyeb
 pip3 install -U -r requirements.txt
-echo "Starting DQ-The-File-Donor...."
+echo "Starting koyeb...."
 python3 bot.py
